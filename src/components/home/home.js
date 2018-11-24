@@ -1,6 +1,9 @@
 import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 import UserProfile from '../user_profile/user_profile';
+import Experience from '../experiense/experiense';
+import company_avatar from '../../images/company.png';
+import company_avatar2 from '../../images/company2.png';
 
 const Home = () => (
   <Row>
@@ -19,6 +22,17 @@ const Home = () => (
           </div>
         </Card>
         <h5 className="subtitle">Experiences</h5>
+
+        <Experience title="React Developer"
+                    company="SoundCloud"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                    avatar={company_avatar}
+        />
+        <Experience title="Clojure Developer"
+                    company="Twitter"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                    avatar={company_avatar2}
+        />
     </Col>
   </Row>
 );
