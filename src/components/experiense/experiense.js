@@ -5,7 +5,7 @@ const Experiense = (props) => (
     <Card>
         <Row>
             <Col s={2} m={2}>
-                <img src={props.avatar} className="circle responsive-img"></img>
+                <img src={props.avatar} className="circle responsive-img" alt="avatar"></img>
                 { props.name }
             </Col>
             <Col s={10} m={10}>

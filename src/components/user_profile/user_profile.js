@@ -6,7 +6,7 @@ const UserProfile = () => (
     <Card>
         <Row s={8} m={8}>
             <Col>
-                <img src={avatar} className="circle responsive-img" />
+                <img src={avatar} className="circle responsive-img" alt="company" />
             </Col>
         </Row>
         <Row s={8} m={8}>
