@@ -12,7 +12,7 @@ const Contact = () => (
             <Card>
                 <Row>
                     <Input placeholder="name@mail.com" type="text" label="Email" s={12} />
-                    <Input placeholder="Lorem Ipsum..." type="text" label="Email" s={12} />
+                    <Input placeholder="Lorem Ipsum..." type="text" label="Name" s={12} />
                     <Col s={12} m={12}>
                         <Button waves="light" className="right indigo darken-4">SEND</Button>
                     </Col>
