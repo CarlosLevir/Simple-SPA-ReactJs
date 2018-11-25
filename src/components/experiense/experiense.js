@@ -5,11 +5,11 @@ const Experiense = (props) => (
     <Card>
         <Row>
             <Col s={2} m={2}>
-                <img src={props.avatar} className="circle responsive-img" alt="avatar"></img>
+                <img src={props.avatar} className="circle responsive-img" alt="company"></img>
                 { props.name }
             </Col>
             <Col s={10} m={10}>
-                <p><b>{ props.title } at <span className="grey darken-2 white-text"></span>
+                <p><b>{ props.title } at <span className="indigo darken-4 white-text"></span>
                     { props.company }
                 </b></p>
                 <p>{ props.description }</p>
